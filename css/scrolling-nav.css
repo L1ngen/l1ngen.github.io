@@ -24,15 +24,16 @@ html {
         font-family: monospace;
         font-size: 18px;
         letter-spacing: 2px;
+        border:none;
     }
     
     .navbar-brand {
                font-size: 32px;
     }    
-    
     .top-nav-collapse {
         padding: 0;
         background-color: #000;
+        font-size: 14px;
     }
 }
 
@@ -40,28 +41,53 @@ html {
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
 
+.gap {
+padding: 20px;}
+
+.my-heading {
+background-color: aqua;}
 .intro-section {
     height: 100%;
-    padding-top: 150px;
-    background: #fff;
+    padding-top: 250px;
     text-align: center;
-    background-image: url(../img/3.jpg);
+    color: #fff;
+   background: url(../img/newyorksunrise.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+font-family: monospace;
+}
+.intro-section h6{
+    
+}
+
+.intro-section a{
+    color: #fff;
+    font-size: 48px;
 }
 
 .about-section {
     height: 100%;
     padding-top: 150px;
-    background: #eee;
+    background: #fff;
+    text-align: center; 
+    font-family: monospace;
 }
 
 .portfolio-section {
     height: 100%;
     padding-top: 150px;
-    background: #fff;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-family: monospace;
 }
 
 .contact-section {
     height: 100%;
     padding-top: 150px;
-    background: #eee;
+    background: #fff;
+    text-align: center;
+    font-family: monospace;
 }
