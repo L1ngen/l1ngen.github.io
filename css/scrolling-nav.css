@@ -42,7 +42,16 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .gap {
-padding: 20px;}
+padding: 20px;
+}
+
+.gap-small {
+padding: 10px;
+}
+
+.gray-color {
+color: gray;
+}
 
 .my-heading {
 background-color: aqua;}
@@ -76,8 +85,9 @@ font-family: monospace;
 }
 
 .portfolio-section {
-    height: 100%;
+    height: auto;
     padding-top: 150px;
+    padding-bottom: 150px;
     background: #000;
     color: #fff;
     text-align: center;
